@@ -12,9 +12,6 @@ function compute_median(collection) {
   else {
     result = parseFloat((arr[arr.length / 2 - 1] + arr[arr.length / 2]) / 2);
   }
-  if (result > 10) {
-    result = result - 2;
-  }
   return result;
 }
 
